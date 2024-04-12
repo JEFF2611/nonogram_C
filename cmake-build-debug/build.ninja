@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: main
+# Project: NonoGram
 # Configurations: Debug
 # =============================================================================
 
@@ -41,72 +41,205 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target main
+# Object build statements for STATIC_LIBRARY target nonogram-static
 
 
 #############################################
-# Order-only phony target for main
+# Order-only phony target for nonogram-static
 
-build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+build cmake_object_order_depends_target_nonogram-static: phony || CMakeFiles/nonogram-static.dir
 
-build CMakeFiles/main.dir/src/main.c.obj: C_COMPILER__main_unscanned_Debug D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/main.c || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\src\main.c.obj.d
-  FLAGS = -g -O0 -fdiagnostics-color=always
-  INCLUDES = -I"D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET/include" -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/include -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\src
-
-build CMakeFiles/main.dir/src/nonogram.c.obj: C_COMPILER__main_unscanned_Debug D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/nonogram.c || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\src\nonogram.c.obj.d
-  FLAGS = -g -O0 -fdiagnostics-color=always
-  INCLUDES = -I"D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET/include" -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/include -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\src
-
-build CMakeFiles/main.dir/src/test-create-destroy.c.obj: C_COMPILER__main_unscanned_Debug D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/test-create-destroy.c || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\src\test-create-destroy.c.obj.d
-  FLAGS = -g -O0 -fdiagnostics-color=always
-  INCLUDES = -I"D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET/include" -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/include -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\src
-
-build CMakeFiles/main.dir/src/test-getters.c.obj: C_COMPILER__main_unscanned_Debug D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/test-getters.c || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\src\test-getters.c.obj.d
-  FLAGS = -g -O0 -fdiagnostics-color=always
-  INCLUDES = -I"D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET/include" -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/include -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\src
-
-build CMakeFiles/main.dir/src/test-to-string.c.obj: C_COMPILER__main_unscanned_Debug D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/test-to-string.c || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\src\test-to-string.c.obj.d
-  FLAGS = -g -O0 -fdiagnostics-color=always
-  INCLUDES = -I"D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET/include" -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/include -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -isystem C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\src
+build CMakeFiles/nonogram-static.dir/nonogram.c.obj: C_COMPILER__nonogram-static_unscanned_Debug D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/nonogram.c || cmake_object_order_depends_target_nonogram-static
+  DEP_FILE = CMakeFiles\nonogram-static.dir\nonogram.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\nonogram-static.dir
+  OBJECT_FILE_DIR = CMakeFiles\nonogram-static.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target main
+# Link build statements for STATIC_LIBRARY target nonogram-static
 
 
 #############################################
-# Link the executable main.exe
+# Link the static library libnonogram.a
 
-build main.exe: C_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.c.obj CMakeFiles/main.dir/src/nonogram.c.obj CMakeFiles/main.dir/src/test-create-destroy.c.obj CMakeFiles/main.dir/src/test-getters.c.obj CMakeFiles/main.dir/src/test-to-string.c.obj
-  FLAGS = -g -O0
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.dir
+build libnonogram.a: C_STATIC_LIBRARY_LINKER__nonogram-static_Debug CMakeFiles/nonogram-static.dir/nonogram.c.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\nonogram-static.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = main.exe
-  TARGET_IMPLIB = libmain.dll.a
-  TARGET_PDB = main.exe.dbg
+  TARGET_FILE = libnonogram.a
+  TARGET_PDB = nonogram.a.dbg
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target nonogram-shared
 
 
 #############################################
-# Utility command for copy-compile-commands
+# Order-only phony target for nonogram-shared
 
-build copy-compile-commands: phony CMakeFiles/copy-compile-commands
+build cmake_object_order_depends_target_nonogram-shared: phony || CMakeFiles/nonogram-shared.dir
+
+build CMakeFiles/nonogram-shared.dir/nonogram.c.obj: C_COMPILER__nonogram-shared_unscanned_Debug D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/nonogram.c || cmake_object_order_depends_target_nonogram-shared
+  DEFINES = -Dnonogram_shared_EXPORTS
+  DEP_FILE = CMakeFiles\nonogram-shared.dir\nonogram.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\nonogram-shared.dir
+  OBJECT_FILE_DIR = CMakeFiles\nonogram-shared.dir
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target nonogram-shared
+
+
+#############################################
+# Link the shared library libnonogram.dll
+
+build libnonogram.dll libnonogram.dll.a: C_SHARED_LIBRARY_LINKER__nonogram-shared_Debug CMakeFiles/nonogram-shared.dir/nonogram.c.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\nonogram-shared.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_FILE = libnonogram.dll
+  TARGET_IMPLIB = libnonogram.dll.a
+  TARGET_PDB = nonogram.dll.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test-create-destroy
+
+
+#############################################
+# Order-only phony target for test-create-destroy
+
+build cmake_object_order_depends_target_test-create-destroy: phony || cmake_object_order_depends_target_nonogram-shared
+
+build CMakeFiles/test-create-destroy.dir/test-create-destroy.c.obj: C_COMPILER__test-create-destroy_unscanned_Debug D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/test-create-destroy.c || cmake_object_order_depends_target_test-create-destroy
+  DEP_FILE = CMakeFiles\test-create-destroy.dir\test-create-destroy.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test-create-destroy.dir
+  OBJECT_FILE_DIR = CMakeFiles\test-create-destroy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test-create-destroy
+
+
+#############################################
+# Link the executable test-create-destroy.exe
+
+build test-create-destroy.exe: C_EXECUTABLE_LINKER__test-create-destroy_Debug CMakeFiles/test-create-destroy.dir/test-create-destroy.c.obj | libnonogram.dll.a || libnonogram.dll
+  FLAGS = -g
+  LINK_LIBRARIES = libnonogram.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test-create-destroy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test-create-destroy.exe
+  TARGET_IMPLIB = libtest-create-destroy.dll.a
+  TARGET_PDB = test-create-destroy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test-getters
+
+
+#############################################
+# Order-only phony target for test-getters
+
+build cmake_object_order_depends_target_test-getters: phony || cmake_object_order_depends_target_nonogram-shared
+
+build CMakeFiles/test-getters.dir/test-getters.c.obj: C_COMPILER__test-getters_unscanned_Debug D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/test-getters.c || cmake_object_order_depends_target_test-getters
+  DEP_FILE = CMakeFiles\test-getters.dir\test-getters.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test-getters.dir
+  OBJECT_FILE_DIR = CMakeFiles\test-getters.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test-getters
+
+
+#############################################
+# Link the executable test-getters.exe
+
+build test-getters.exe: C_EXECUTABLE_LINKER__test-getters_Debug CMakeFiles/test-getters.dir/test-getters.c.obj | libnonogram.dll.a || libnonogram.dll
+  FLAGS = -g
+  LINK_LIBRARIES = libnonogram.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test-getters.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test-getters.exe
+  TARGET_IMPLIB = libtest-getters.dll.a
+  TARGET_PDB = test-getters.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test-to-string
+
+
+#############################################
+# Order-only phony target for test-to-string
+
+build cmake_object_order_depends_target_test-to-string: phony || cmake_object_order_depends_target_nonogram-shared
+
+build CMakeFiles/test-to-string.dir/test-to-string.c.obj: C_COMPILER__test-to-string_unscanned_Debug D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/test-to-string.c || cmake_object_order_depends_target_test-to-string
+  DEP_FILE = CMakeFiles\test-to-string.dir\test-to-string.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test-to-string.dir
+  OBJECT_FILE_DIR = CMakeFiles\test-to-string.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test-to-string
+
+
+#############################################
+# Link the executable test-to-string.exe
+
+build test-to-string.exe: C_EXECUTABLE_LINKER__test-to-string_Debug CMakeFiles/test-to-string.dir/test-to-string.c.obj | libnonogram.dll.a || libnonogram.dll
+  FLAGS = -g
+  LINK_LIBRARIES = libnonogram.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test-to-string.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test-to-string.exe
+  TARGET_IMPLIB = libtest-to-string.dll.a
+  TARGET_PDB = test-to-string.exe.dbg
+
+
+#############################################
+# Utility command for package
+
+build CMakeFiles/package.util: CUSTOM_COMMAND all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\Users\OneDrive - Université de La Rochelle\ULAROCHELLE\COURS S4\DEV LOGICIEL - INTERMEDIAIRE 2\PROGIMP - AVANCE\PROJET\cmake-build-debug" && C:\Users\mecty\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build package: phony CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\Users\OneDrive - Université de La Rochelle\ULAROCHELLE\COURS S4\DEV LOGICIEL - INTERMEDIAIRE 2\PROGIMP - AVANCE\PROJET\cmake-build-debug" && C:\Users\mecty\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackSourceConfig.cmake "D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET/cmake-build-debug/CPackSourceConfig.cmake""
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build package_source: phony CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for test
+
+build CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\Users\OneDrive - Université de La Rochelle\ULAROCHELLE\COURS S4\DEV LOGICIEL - INTERMEDIAIRE 2\PROGIMP - AVANCE\PROJET\cmake-build-debug" && C:\Users\mecty\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\ctest.exe --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build test: phony CMakeFiles/test.util
 
 
 #############################################
@@ -124,24 +257,25 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\Users\OneDrive - Université de La Rochelle\ULAROCHELLE\COURS S4\DEV LOGICIEL - INTERMEDIAIRE 2\PROGIMP - AVANCE\PROJET\cmake-build-debug" && C:\Users\mecty\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"D:\Users\OneDrive - Université de La Rochelle\ULAROCHELLE\COURS S4\DEV LOGICIEL - INTERMEDIAIRE 2\PROGIMP - AVANCE\PROJET" -B"D:\Users\OneDrive - Université de La Rochelle\ULAROCHELLE\COURS S4\DEV LOGICIEL - INTERMEDIAIRE 2\PROGIMP - AVANCE\PROJET\cmake-build-debug""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\Users\OneDrive - Université de La Rochelle\ULAROCHELLE\COURS S4\DEV LOGICIEL - INTERMEDIAIRE 2\PROGIMP - AVANCE\PROJET\cmake-build-debug" && C:\Users\mecty\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"D:\Users\OneDrive - Université de La Rochelle\ULAROCHELLE\COURS S4\DEV LOGICIEL - INTERMEDIAIRE 2\PROGIMP - AVANCE\PROJET\src" -B"D:\Users\OneDrive - Université de La Rochelle\ULAROCHELLE\COURS S4\DEV LOGICIEL - INTERMEDIAIRE 2\PROGIMP - AVANCE\PROJET\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
-
-#############################################
-# Custom command for CMakeFiles\copy-compile-commands
-
-build CMakeFiles/copy-compile-commands | ${cmake_ninja_workdir}CMakeFiles/copy-compile-commands: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "D:\Users\OneDrive - Université de La Rochelle\ULAROCHELLE\COURS S4\DEV LOGICIEL - INTERMEDIAIRE 2\PROGIMP - AVANCE\PROJET\cmake-build-debug" && C:\Users\mecty\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy_if_different "D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET/cmake-build-debug/compile_commands.json" "D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET""
-
 # =============================================================================
 # Target aliases.
 
-build main: phony main.exe
+build nonogram-shared: phony libnonogram.dll
+
+build nonogram-static: phony libnonogram.a
+
+build test-create-destroy: phony test-create-destroy.exe
+
+build test-getters: phony test-getters.exe
+
+build test-to-string: phony test-to-string.exe
 
 # =============================================================================
 # Folder targets.
@@ -151,7 +285,7 @@ build main: phony main.exe
 #############################################
 # Folder: D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET/cmake-build-debug
 
-build all: phony main.exe copy-compile-commands
+build all: phony libnonogram.a libnonogram.dll test-create-destroy.exe test-getters.exe test-to-string.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
@@ -165,14 +299,14 @@ build all: phony main.exe copy-compile-commands
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CPack.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CPackComponent.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/CMakeLists.txt: phony
+build C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CPack.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CPackComponent.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/mecty/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Users/OneDrive$ -$ Université$ de$ La$ Rochelle/ULAROCHELLE/COURS$ S4/DEV$ LOGICIEL$ -$ INTERMEDIAIRE$ 2/PROGIMP$ -$ AVANCE/PROJET/src/CMakeLists.txt: phony
 
 
 #############################################

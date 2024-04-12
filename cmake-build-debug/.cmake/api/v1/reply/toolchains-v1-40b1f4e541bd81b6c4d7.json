@@ -43,7 +43,7 @@
 						"kernel32"
 					]
 				},
-				"path" : "clang",
+				"path" : "C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe",
 				"version" : "13.1.0"
 			},
 			"language" : "C",

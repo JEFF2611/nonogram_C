@@ -1,8 +1,8 @@
-# Install script for directory: D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET
+# Install script for directory: D:/Users/OneDrive - Université de La Rochelle/ULAROCHELLE/COURS S4/DEV LOGICIEL - INTERMEDIAIRE 2/PROGIMP - AVANCE/PROJET/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/main")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/NonoGram")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
