@@ -1,3 +1,0 @@
-C:\Users\mecty\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\test-create-destroy.dir/objects.a
-C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\test-create-destroy.dir/objects.a @CMakeFiles\test-create-destroy.dir\objects1.rsp
-C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\test-create-destroy.dir/objects.a -Wl,--no-whole-archive -o test-create-destroy.exe -Wl,--out-implib,libtest-create-destroy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test-create-destroy.dir\linkLibs.rsp
