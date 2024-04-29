@@ -8,9 +8,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "cJSON.h"
-#include "libpnmio.h"
-
 #include "./nonogram.inc"
 
 /**
@@ -307,4 +304,3 @@ const char *nonogram_hints_to_string(NonoGramHints *hints) {
 
   return string;
 }
-
