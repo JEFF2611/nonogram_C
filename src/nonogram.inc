@@ -1,5 +1,6 @@
 // Copyright © Christophe Demko <christophe.demko@univ-lr.fr>, 2024
 // Licensed under the BSD-3 License. See the LICENSE file for details.
+
 /**
  * NonoGramHints is a opaque structure that represents the hints of a nonogram.
  * @note This structure is defined in nonogram.inc

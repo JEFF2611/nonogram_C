@@ -8,7 +8,6 @@
 #include <assert.h>
 
 #include "./nonogram.h"
-#include "./nonogram.inc"
 
 int main(void) {
   int rows_count = 4;

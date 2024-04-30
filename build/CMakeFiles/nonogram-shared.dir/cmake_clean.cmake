@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nonogram-shared.dir/cJSON.c.obj"
   "CMakeFiles/nonogram-shared.dir/cJSON.c.obj.d"
+  "CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj"
+  "CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj.d"
+  "CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj"
+  "CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj.d"
   "CMakeFiles/nonogram-shared.dir/nonogram.c.obj"
   "CMakeFiles/nonogram-shared.dir/nonogram.c.obj.d"
   "libnonogram.dll"

@@ -237,6 +237,60 @@ cJSON.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/cJSON.c.s
 .PHONY : cJSON.c.s
 
+nonogram-create.obj: nonogram-create.c.obj
+.PHONY : nonogram-create.obj
+
+# target to build an object file
+nonogram-create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-create.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj
+.PHONY : nonogram-create.c.obj
+
+nonogram-create.i: nonogram-create.c.i
+.PHONY : nonogram-create.i
+
+# target to preprocess a source file
+nonogram-create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-create.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-create.c.i
+.PHONY : nonogram-create.c.i
+
+nonogram-create.s: nonogram-create.c.s
+.PHONY : nonogram-create.s
+
+# target to generate assembly for a file
+nonogram-create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-create.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-create.c.s
+.PHONY : nonogram-create.c.s
+
+nonogram-solve.obj: nonogram-solve.c.obj
+.PHONY : nonogram-solve.obj
+
+# target to build an object file
+nonogram-solve.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-solve.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj
+.PHONY : nonogram-solve.c.obj
+
+nonogram-solve.i: nonogram-solve.c.i
+.PHONY : nonogram-solve.i
+
+# target to preprocess a source file
+nonogram-solve.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-solve.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-solve.c.i
+.PHONY : nonogram-solve.c.i
+
+nonogram-solve.s: nonogram-solve.c.s
+.PHONY : nonogram-solve.s
+
+# target to generate assembly for a file
+nonogram-solve.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-solve.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-solve.c.s
+.PHONY : nonogram-solve.c.s
+
 nonogram.obj: nonogram.c.obj
 .PHONY : nonogram.obj
 
@@ -355,6 +409,12 @@ help:
 	@echo ... cJSON.obj
 	@echo ... cJSON.i
 	@echo ... cJSON.s
+	@echo ... nonogram-create.obj
+	@echo ... nonogram-create.i
+	@echo ... nonogram-create.s
+	@echo ... nonogram-solve.obj
+	@echo ... nonogram-solve.i
+	@echo ... nonogram-solve.s
 	@echo ... nonogram.obj
 	@echo ... nonogram.i
 	@echo ... nonogram.s

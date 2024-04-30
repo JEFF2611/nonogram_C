@@ -269,6 +269,28 @@
 			<Option target="test-getters"/>
 			<Option target="test-to-string"/>
 		</Unit>
+		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram-create.c">
+			<Option target="nonogram-static"/>
+			<Option target="nonogram-shared"/>
+		</Unit>
+		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram-create.h">
+			<Option target="nonogram-static"/>
+			<Option target="nonogram-shared"/>
+			<Option target="test-create-destroy"/>
+			<Option target="test-getters"/>
+			<Option target="test-to-string"/>
+		</Unit>
+		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram-solve.c">
+			<Option target="nonogram-static"/>
+			<Option target="nonogram-shared"/>
+		</Unit>
+		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram-solve.h">
+			<Option target="nonogram-static"/>
+			<Option target="nonogram-shared"/>
+			<Option target="test-create-destroy"/>
+			<Option target="test-getters"/>
+			<Option target="test-to-string"/>
+		</Unit>
 		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram.c">
 			<Option target="nonogram-static"/>
 			<Option target="nonogram-shared"/>

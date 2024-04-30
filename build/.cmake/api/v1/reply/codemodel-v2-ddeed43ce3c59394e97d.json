@@ -47,35 +47,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "nonogram-shared::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-nonogram-shared-Debug-7893d33dc47688dc73d8.json",
+					"jsonFile" : "target-nonogram-shared-Debug-15e1552c5d7b5a0df5ad.json",
 					"name" : "nonogram-shared",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "nonogram-static::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-nonogram-static-Debug-0c3fb85eee5892cb12e8.json",
+					"jsonFile" : "target-nonogram-static-Debug-91a2ba4397cd6f682a08.json",
 					"name" : "nonogram-static",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test-create-destroy::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-create-destroy-Debug-81ff963b48590e22aab5.json",
+					"jsonFile" : "target-test-create-destroy-Debug-51a0670755bfc4b86f18.json",
 					"name" : "test-create-destroy",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test-getters::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-getters-Debug-403aea3485ea82749b39.json",
+					"jsonFile" : "target-test-getters-Debug-069930a66ea80ba1b249.json",
 					"name" : "test-getters",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test-to-string::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-to-string-Debug-8626f2d187543f2e9c9e.json",
+					"jsonFile" : "target-test-to-string-Debug-69569b043770e063ad2c.json",
 					"name" : "test-to-string",
 					"projectIndex" : 0
 				}

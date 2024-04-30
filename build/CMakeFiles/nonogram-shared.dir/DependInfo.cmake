@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/PROJET_C/nonogram_C/src/cJSON.c" "CMakeFiles/nonogram-shared.dir/cJSON.c.obj" "gcc" "CMakeFiles/nonogram-shared.dir/cJSON.c.obj.d"
+  "D:/PROJET_C/nonogram_C/src/nonogram-create.c" "CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj" "gcc" "CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj.d"
+  "D:/PROJET_C/nonogram_C/src/nonogram-solve.c" "CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj" "gcc" "CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj.d"
   "D:/PROJET_C/nonogram_C/src/nonogram.c" "CMakeFiles/nonogram-shared.dir/nonogram.c.obj" "gcc" "CMakeFiles/nonogram-shared.dir/nonogram.c.obj.d"
   )
 
