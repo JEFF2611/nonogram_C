@@ -1,0 +1,8 @@
+//
+// Created by mecty on 30/04/2024.
+//
+
+#ifndef NONOGRAM_NONOGRAM_SOLVE_H
+#define NONOGRAM_NONOGRAM_SOLVE_H
+
+#endif //NONOGRAM_NONOGRAM_SOLVE_H
