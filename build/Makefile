@@ -171,45 +171,6 @@ nonogram-shared/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/build
 .PHONY : nonogram-shared/fast
 
-#=============================================================================
-# Target rules for targets named test-create-destroy
-
-# Build rule for target.
-test-create-destroy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test-create-destroy
-.PHONY : test-create-destroy
-
-# fast build rule for target.
-test-create-destroy/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/build
-.PHONY : test-create-destroy/fast
-
-#=============================================================================
-# Target rules for targets named test-getters
-
-# Build rule for target.
-test-getters: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test-getters
-.PHONY : test-getters
-
-# fast build rule for target.
-test-getters/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/build
-.PHONY : test-getters/fast
-
-#=============================================================================
-# Target rules for targets named test-to-string
-
-# Build rule for target.
-test-to-string: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test-to-string
-.PHONY : test-to-string
-
-# fast build rule for target.
-test-to-string/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/build
-.PHONY : test-to-string/fast
-
 cJSON.obj: cJSON.c.obj
 .PHONY : cJSON.obj
 
@@ -318,78 +279,6 @@ nonogram.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram.c.s
 .PHONY : nonogram.c.s
 
-test-create-destroy.obj: test-create-destroy.c.obj
-.PHONY : test-create-destroy.obj
-
-# target to build an object file
-test-create-destroy.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/test-create-destroy.c.obj
-.PHONY : test-create-destroy.c.obj
-
-test-create-destroy.i: test-create-destroy.c.i
-.PHONY : test-create-destroy.i
-
-# target to preprocess a source file
-test-create-destroy.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/test-create-destroy.c.i
-.PHONY : test-create-destroy.c.i
-
-test-create-destroy.s: test-create-destroy.c.s
-.PHONY : test-create-destroy.s
-
-# target to generate assembly for a file
-test-create-destroy.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/test-create-destroy.c.s
-.PHONY : test-create-destroy.c.s
-
-test-getters.obj: test-getters.c.obj
-.PHONY : test-getters.obj
-
-# target to build an object file
-test-getters.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/test-getters.c.obj
-.PHONY : test-getters.c.obj
-
-test-getters.i: test-getters.c.i
-.PHONY : test-getters.i
-
-# target to preprocess a source file
-test-getters.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/test-getters.c.i
-.PHONY : test-getters.c.i
-
-test-getters.s: test-getters.c.s
-.PHONY : test-getters.s
-
-# target to generate assembly for a file
-test-getters.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/test-getters.c.s
-.PHONY : test-getters.c.s
-
-test-to-string.obj: test-to-string.c.obj
-.PHONY : test-to-string.obj
-
-# target to build an object file
-test-to-string.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/test-to-string.c.obj
-.PHONY : test-to-string.c.obj
-
-test-to-string.i: test-to-string.c.i
-.PHONY : test-to-string.i
-
-# target to preprocess a source file
-test-to-string.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/test-to-string.c.i
-.PHONY : test-to-string.c.i
-
-test-to-string.s: test-to-string.c.s
-.PHONY : test-to-string.s
-
-# target to generate assembly for a file
-test-to-string.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/test-to-string.c.s
-.PHONY : test-to-string.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -403,9 +292,6 @@ help:
 	@echo ... test
 	@echo ... nonogram-shared
 	@echo ... nonogram-static
-	@echo ... test-create-destroy
-	@echo ... test-getters
-	@echo ... test-to-string
 	@echo ... cJSON.obj
 	@echo ... cJSON.i
 	@echo ... cJSON.s
@@ -418,15 +304,6 @@ help:
 	@echo ... nonogram.obj
 	@echo ... nonogram.i
 	@echo ... nonogram.s
-	@echo ... test-create-destroy.obj
-	@echo ... test-create-destroy.i
-	@echo ... test-create-destroy.s
-	@echo ... test-getters.obj
-	@echo ... test-getters.i
-	@echo ... test-getters.s
-	@echo ... test-to-string.obj
-	@echo ... test-to-string.i
-	@echo ... test-to-string.s
 .PHONY : help
 
 

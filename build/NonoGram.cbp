@@ -93,120 +93,6 @@
 					<DistClean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="test-create-destroy">
-				<Option output="D:/PROJET_C/nonogram_C/build/test-create-destroy.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/PROJET_C/nonogram_C/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 test-create-destroy"/>
-					<CompileFile command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test-create-destroy/fast">
-				<Option output="D:/PROJET_C/nonogram_C/build/test-create-destroy.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/PROJET_C/nonogram_C/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 test-create-destroy/fast"/>
-					<CompileFile command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test-getters">
-				<Option output="D:/PROJET_C/nonogram_C/build/test-getters.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/PROJET_C/nonogram_C/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 test-getters"/>
-					<CompileFile command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test-getters/fast">
-				<Option output="D:/PROJET_C/nonogram_C/build/test-getters.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/PROJET_C/nonogram_C/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 test-getters/fast"/>
-					<CompileFile command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test-to-string">
-				<Option output="D:/PROJET_C/nonogram_C/build/test-to-string.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/PROJET_C/nonogram_C/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 test-to-string"/>
-					<CompileFile command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test-to-string/fast">
-				<Option output="D:/PROJET_C/nonogram_C/build/test-to-string.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/PROJET_C/nonogram_C/build"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 test-to-string/fast"/>
-					<CompileFile command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/PROJET_C/nonogram_C/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="package">
 				<Option working_dir="D:/PROJET_C/nonogram_C/build"/>
 				<Option type="4"/>
@@ -265,9 +151,6 @@
 		<Unit filename="D:/PROJET_C/nonogram_C/src/cJSON.h">
 			<Option target="nonogram-static"/>
 			<Option target="nonogram-shared"/>
-			<Option target="test-create-destroy"/>
-			<Option target="test-getters"/>
-			<Option target="test-to-string"/>
 		</Unit>
 		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram-create.c">
 			<Option target="nonogram-static"/>
@@ -276,9 +159,6 @@
 		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram-create.h">
 			<Option target="nonogram-static"/>
 			<Option target="nonogram-shared"/>
-			<Option target="test-create-destroy"/>
-			<Option target="test-getters"/>
-			<Option target="test-to-string"/>
 		</Unit>
 		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram-solve.c">
 			<Option target="nonogram-static"/>
@@ -287,9 +167,6 @@
 		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram-solve.h">
 			<Option target="nonogram-static"/>
 			<Option target="nonogram-shared"/>
-			<Option target="test-create-destroy"/>
-			<Option target="test-getters"/>
-			<Option target="test-to-string"/>
 		</Unit>
 		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram.c">
 			<Option target="nonogram-static"/>
@@ -298,23 +175,6 @@
 		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram.h">
 			<Option target="nonogram-static"/>
 			<Option target="nonogram-shared"/>
-			<Option target="test-create-destroy"/>
-			<Option target="test-getters"/>
-			<Option target="test-to-string"/>
-		</Unit>
-		<Unit filename="D:/PROJET_C/nonogram_C/src/nonogram.inc">
-			<Option target="test-create-destroy"/>
-			<Option target="test-getters"/>
-			<Option target="test-to-string"/>
-		</Unit>
-		<Unit filename="D:/PROJET_C/nonogram_C/src/test-create-destroy.c">
-			<Option target="test-create-destroy"/>
-		</Unit>
-		<Unit filename="D:/PROJET_C/nonogram_C/src/test-getters.c">
-			<Option target="test-getters"/>
-		</Unit>
-		<Unit filename="D:/PROJET_C/nonogram_C/src/test-to-string.c">
-			<Option target="test-to-string"/>
 		</Unit>
 		<Unit filename="D:/PROJET_C/nonogram_C/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

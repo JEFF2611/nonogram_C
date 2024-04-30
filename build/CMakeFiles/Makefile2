@@ -64,9 +64,6 @@ CMAKE_BINARY_DIR = D:\PROJET_C\nonogram_C\build
 # The main recursive "all" target.
 all: CMakeFiles/nonogram-static.dir/all
 all: CMakeFiles/nonogram-shared.dir/all
-all: CMakeFiles/test-create-destroy.dir/all
-all: CMakeFiles/test-getters.dir/all
-all: CMakeFiles/test-to-string.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,9 +73,6 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/nonogram-static.dir/clean
 clean: CMakeFiles/nonogram-shared.dir/clean
-clean: CMakeFiles/test-create-destroy.dir/clean
-clean: CMakeFiles/test-getters.dir/clean
-clean: CMakeFiles/test-to-string.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -132,84 +126,6 @@ nonogram-shared: CMakeFiles/nonogram-shared.dir/rule
 CMakeFiles/nonogram-shared.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/clean
 .PHONY : CMakeFiles/nonogram-shared.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/test-create-destroy.dir
-
-# All Build rule for target.
-CMakeFiles/test-create-destroy.dir/all: CMakeFiles/nonogram-shared.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=11,12 "Built target test-create-destroy"
-.PHONY : CMakeFiles/test-create-destroy.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/test-create-destroy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJET_C\nonogram_C\build\CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test-create-destroy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJET_C\nonogram_C\build\CMakeFiles 0
-.PHONY : CMakeFiles/test-create-destroy.dir/rule
-
-# Convenience name for target.
-test-create-destroy: CMakeFiles/test-create-destroy.dir/rule
-.PHONY : test-create-destroy
-
-# clean rule for target.
-CMakeFiles/test-create-destroy.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/clean
-.PHONY : CMakeFiles/test-create-destroy.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/test-getters.dir
-
-# All Build rule for target.
-CMakeFiles/test-getters.dir/all: CMakeFiles/nonogram-shared.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=13,14 "Built target test-getters"
-.PHONY : CMakeFiles/test-getters.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/test-getters.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJET_C\nonogram_C\build\CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test-getters.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJET_C\nonogram_C\build\CMakeFiles 0
-.PHONY : CMakeFiles/test-getters.dir/rule
-
-# Convenience name for target.
-test-getters: CMakeFiles/test-getters.dir/rule
-.PHONY : test-getters
-
-# clean rule for target.
-CMakeFiles/test-getters.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/clean
-.PHONY : CMakeFiles/test-getters.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/test-to-string.dir
-
-# All Build rule for target.
-CMakeFiles/test-to-string.dir/all: CMakeFiles/nonogram-shared.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=15,16 "Built target test-to-string"
-.PHONY : CMakeFiles/test-to-string.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/test-to-string.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJET_C\nonogram_C\build\CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test-to-string.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJET_C\nonogram_C\build\CMakeFiles 0
-.PHONY : CMakeFiles/test-to-string.dir/rule
-
-# Convenience name for target.
-test-to-string: CMakeFiles/test-to-string.dir/rule
-.PHONY : test-to-string
-
-# clean rule for target.
-CMakeFiles/test-to-string.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/clean
-.PHONY : CMakeFiles/test-to-string.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

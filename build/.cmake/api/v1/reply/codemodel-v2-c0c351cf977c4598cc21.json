@@ -16,10 +16,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						1,
-						2,
-						3,
-						4
+						1
 					]
 				}
 			],
@@ -35,10 +32,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						1,
-						2,
-						3,
-						4
+						1
 					]
 				}
 			],
@@ -56,27 +50,6 @@
 					"id" : "nonogram-static::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-nonogram-static-Debug-91a2ba4397cd6f682a08.json",
 					"name" : "nonogram-static",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "test-create-destroy::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-create-destroy-Debug-51a0670755bfc4b86f18.json",
-					"name" : "test-create-destroy",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "test-getters::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-getters-Debug-069930a66ea80ba1b249.json",
-					"name" : "test-getters",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "test-to-string::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-to-string-Debug-69569b043770e063ad2c.json",
-					"name" : "test-to-string",
 					"projectIndex" : 0
 				}
 			]

@@ -1,8 +1,5 @@
 D:/PROJET_C/nonogram_C/build/CMakeFiles/nonogram-static.dir
 D:/PROJET_C/nonogram_C/build/CMakeFiles/nonogram-shared.dir
-D:/PROJET_C/nonogram_C/build/CMakeFiles/test-create-destroy.dir
-D:/PROJET_C/nonogram_C/build/CMakeFiles/test-getters.dir
-D:/PROJET_C/nonogram_C/build/CMakeFiles/test-to-string.dir
 D:/PROJET_C/nonogram_C/build/CMakeFiles/package.dir
 D:/PROJET_C/nonogram_C/build/CMakeFiles/package_source.dir
 D:/PROJET_C/nonogram_C/build/CMakeFiles/test.dir
