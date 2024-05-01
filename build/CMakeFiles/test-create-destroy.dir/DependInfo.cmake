@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/PROJET_C/nonogram_C/src/cJSON.c" "CMakeFiles/test-create-destroy.dir/cJSON.c.obj" "gcc" "CMakeFiles/test-create-destroy.dir/cJSON.c.obj.d"
   "D:/PROJET_C/nonogram_C/src/nonogram.c" "CMakeFiles/test-create-destroy.dir/nonogram.c.obj" "gcc" "CMakeFiles/test-create-destroy.dir/nonogram.c.obj.d"
+  "D:/PROJET_C/nonogram_C/src/pnmio.c" "CMakeFiles/test-create-destroy.dir/pnmio.c.obj" "gcc" "CMakeFiles/test-create-destroy.dir/pnmio.c.obj.d"
   "D:/PROJET_C/nonogram_C/src/test-create-destroy.c" "CMakeFiles/test-create-destroy.dir/test-create-destroy.c.obj" "gcc" "CMakeFiles/test-create-destroy.dir/test-create-destroy.c.obj.d"
   )
 

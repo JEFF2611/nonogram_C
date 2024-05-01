@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/PROJET_C/nonogram_C/src/cJSON.c" "CMakeFiles/nonogram-shared.dir/cJSON.c.obj" "gcc" "CMakeFiles/nonogram-shared.dir/cJSON.c.obj.d"
   "D:/PROJET_C/nonogram_C/src/nonogram.c" "CMakeFiles/nonogram-shared.dir/nonogram.c.obj" "gcc" "CMakeFiles/nonogram-shared.dir/nonogram.c.obj.d"
+  "D:/PROJET_C/nonogram_C/src/pnmio.c" "CMakeFiles/nonogram-shared.dir/pnmio.c.obj" "gcc" "CMakeFiles/nonogram-shared.dir/pnmio.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

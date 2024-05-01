@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nonogram-static.dir/cJSON.c.obj.d"
   "CMakeFiles/nonogram-static.dir/nonogram.c.obj"
   "CMakeFiles/nonogram-static.dir/nonogram.c.obj.d"
+  "CMakeFiles/nonogram-static.dir/pnmio.c.obj"
+  "CMakeFiles/nonogram-static.dir/pnmio.c.obj.d"
   "libnonogram.a"
   "libnonogram.pdb"
 )

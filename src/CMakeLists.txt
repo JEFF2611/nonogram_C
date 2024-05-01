@@ -11,10 +11,10 @@ if(POLICY CMP0110)
 endif()
 
 # Add your source files here
-set(SOURCES nonogram.c cJSON.c)
+set(SOURCES nonogram.c cJSON.c pnmio.c)
 
 # Add your header files here
-set(HEADERS nonogram.h cJSON.h)
+set(HEADERS nonogram.h cJSON.h pnmio.h)
 
 # Create the static library
 add_library(nonogram-static STATIC ${SOURCES} ${HEADERS})

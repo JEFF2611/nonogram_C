@@ -26,4 +26,5 @@ CMakeFiles/test-to-string.dir/test-to-string.c.obj: \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/assert.h \
  D:/PROJET_C/nonogram_C/src/nonogram.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
+ D:/PROJET_C/nonogram_C/src/pnmio.h \
  D:/PROJET_C/nonogram_C/src/nonogram.inc

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/PROJET_C/nonogram_C/src/cJSON.c" "CMakeFiles/test-getters.dir/cJSON.c.obj" "gcc" "CMakeFiles/test-getters.dir/cJSON.c.obj.d"
   "D:/PROJET_C/nonogram_C/src/nonogram.c" "CMakeFiles/test-getters.dir/nonogram.c.obj" "gcc" "CMakeFiles/test-getters.dir/nonogram.c.obj.d"
+  "D:/PROJET_C/nonogram_C/src/pnmio.c" "CMakeFiles/test-getters.dir/pnmio.c.obj" "gcc" "CMakeFiles/test-getters.dir/pnmio.c.obj.d"
   "D:/PROJET_C/nonogram_C/src/test-getters.c" "CMakeFiles/test-getters.dir/test-getters.c.obj" "gcc" "CMakeFiles/test-getters.dir/test-getters.c.obj.d"
   )
 

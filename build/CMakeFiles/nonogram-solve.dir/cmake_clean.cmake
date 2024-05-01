@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nonogram-solve.dir/nonogram-solve.c.obj.d"
   "CMakeFiles/nonogram-solve.dir/nonogram.c.obj"
   "CMakeFiles/nonogram-solve.dir/nonogram.c.obj.d"
+  "CMakeFiles/nonogram-solve.dir/pnmio.c.obj"
+  "CMakeFiles/nonogram-solve.dir/pnmio.c.obj.d"
   "libnonogram-solve.dll.a"
   "nonogram-solve.exe"
   "nonogram-solve.exe.manifest"

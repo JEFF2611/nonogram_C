@@ -96,19 +96,35 @@ CMakeFiles/nonogram-static.dir/cJSON.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/nonogram-static.dir/cJSON.c.s"
 	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJET_C\nonogram_C\src\cJSON.c -o CMakeFiles\nonogram-static.dir\cJSON.c.s
 
+CMakeFiles/nonogram-static.dir/pnmio.c.obj: CMakeFiles/nonogram-static.dir/flags.make
+CMakeFiles/nonogram-static.dir/pnmio.c.obj: D:/PROJET_C/nonogram_C/src/pnmio.c
+CMakeFiles/nonogram-static.dir/pnmio.c.obj: CMakeFiles/nonogram-static.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/nonogram-static.dir/pnmio.c.obj"
+	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/nonogram-static.dir/pnmio.c.obj -MF CMakeFiles\nonogram-static.dir\pnmio.c.obj.d -o CMakeFiles\nonogram-static.dir\pnmio.c.obj -c D:\PROJET_C\nonogram_C\src\pnmio.c
+
+CMakeFiles/nonogram-static.dir/pnmio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/nonogram-static.dir/pnmio.c.i"
+	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJET_C\nonogram_C\src\pnmio.c > CMakeFiles\nonogram-static.dir\pnmio.c.i
+
+CMakeFiles/nonogram-static.dir/pnmio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/nonogram-static.dir/pnmio.c.s"
+	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJET_C\nonogram_C\src\pnmio.c -o CMakeFiles\nonogram-static.dir\pnmio.c.s
+
 # Object files for target nonogram-static
 nonogram__static_OBJECTS = \
 "CMakeFiles/nonogram-static.dir/nonogram.c.obj" \
-"CMakeFiles/nonogram-static.dir/cJSON.c.obj"
+"CMakeFiles/nonogram-static.dir/cJSON.c.obj" \
+"CMakeFiles/nonogram-static.dir/pnmio.c.obj"
 
 # External object files for target nonogram-static
 nonogram__static_EXTERNAL_OBJECTS =
 
 libnonogram.a: CMakeFiles/nonogram-static.dir/nonogram.c.obj
 libnonogram.a: CMakeFiles/nonogram-static.dir/cJSON.c.obj
+libnonogram.a: CMakeFiles/nonogram-static.dir/pnmio.c.obj
 libnonogram.a: CMakeFiles/nonogram-static.dir/build.make
 libnonogram.a: CMakeFiles/nonogram-static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libnonogram.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libnonogram.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\nonogram-static.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\nonogram-static.dir\link.txt --verbose=$(VERBOSE)
 

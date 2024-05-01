@@ -21,17 +21,15 @@ CMakeFiles/nonogram-solve.dir/nonogram-solve.c.obj: \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/errno.h \
- C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/unistd.h \
+ C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/fcntl.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/io.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/process.h \
- C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
- C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
- C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/getopt.h \
- C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
  D:/PROJET_C/nonogram_C/src/cJSON.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
  D:/PROJET_C/nonogram_C/src/nonogram.h \
- C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h
+ C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
+ D:/PROJET_C/nonogram_C/src/pnmio.h \
+ D:/PROJET_C/nonogram_C/src/nonogram.inc \
+ D:/PROJET_C/nonogram_C/src/pnmio.h

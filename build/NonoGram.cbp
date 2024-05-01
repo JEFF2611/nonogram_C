@@ -337,6 +337,22 @@
 			<Option target="test-to-string"/>
 			<Option target="nonogram-solve"/>
 		</Unit>
+		<Unit filename="D:/PROJET_C/nonogram_C/src/pnmio.c">
+			<Option target="nonogram-static"/>
+			<Option target="nonogram-shared"/>
+			<Option target="test-create-destroy"/>
+			<Option target="test-getters"/>
+			<Option target="test-to-string"/>
+			<Option target="nonogram-solve"/>
+		</Unit>
+		<Unit filename="D:/PROJET_C/nonogram_C/src/pnmio.h">
+			<Option target="nonogram-static"/>
+			<Option target="nonogram-shared"/>
+			<Option target="test-create-destroy"/>
+			<Option target="test-getters"/>
+			<Option target="test-to-string"/>
+			<Option target="nonogram-solve"/>
+		</Unit>
 		<Unit filename="D:/PROJET_C/nonogram_C/src/test-create-destroy.c">
 			<Option target="test-create-destroy"/>
 		</Unit>

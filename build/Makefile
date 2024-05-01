@@ -325,6 +325,45 @@ nonogram.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/nonogram.c.s
 .PHONY : nonogram.c.s
 
+pnmio.obj: pnmio.c.obj
+.PHONY : pnmio.obj
+
+# target to build an object file
+pnmio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/pnmio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/pnmio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/pnmio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/pnmio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/pnmio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/pnmio.c.obj
+.PHONY : pnmio.c.obj
+
+pnmio.i: pnmio.c.i
+.PHONY : pnmio.i
+
+# target to preprocess a source file
+pnmio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/pnmio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/pnmio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/pnmio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/pnmio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/pnmio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/pnmio.c.i
+.PHONY : pnmio.c.i
+
+pnmio.s: pnmio.c.s
+.PHONY : pnmio.s
+
+# target to generate assembly for a file
+pnmio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/pnmio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/pnmio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/pnmio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/pnmio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/pnmio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/pnmio.c.s
+.PHONY : pnmio.c.s
+
 test-create-destroy.obj: test-create-destroy.c.obj
 .PHONY : test-create-destroy.obj
 
@@ -423,6 +462,9 @@ help:
 	@echo ... nonogram.obj
 	@echo ... nonogram.i
 	@echo ... nonogram.s
+	@echo ... pnmio.obj
+	@echo ... pnmio.i
+	@echo ... pnmio.s
 	@echo ... test-create-destroy.obj
 	@echo ... test-create-destroy.i
 	@echo ... test-create-destroy.s

@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/PROJET_C/nonogram_C/src/cJSON.c" "CMakeFiles/nonogram-solve.dir/cJSON.c.obj" "gcc" "CMakeFiles/nonogram-solve.dir/cJSON.c.obj.d"
   "D:/PROJET_C/nonogram_C/src/nonogram-solve.c" "CMakeFiles/nonogram-solve.dir/nonogram-solve.c.obj" "gcc" "CMakeFiles/nonogram-solve.dir/nonogram-solve.c.obj.d"
   "D:/PROJET_C/nonogram_C/src/nonogram.c" "CMakeFiles/nonogram-solve.dir/nonogram.c.obj" "gcc" "CMakeFiles/nonogram-solve.dir/nonogram.c.obj.d"
+  "D:/PROJET_C/nonogram_C/src/pnmio.c" "CMakeFiles/nonogram-solve.dir/pnmio.c.obj" "gcc" "CMakeFiles/nonogram-solve.dir/pnmio.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

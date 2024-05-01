@@ -19,4 +19,10 @@ CMakeFiles/test-getters.dir/test-getters.c.obj: \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/assert.h \
  D:/PROJET_C/nonogram_C/src/nonogram.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
+ D:/PROJET_C/nonogram_C/src/pnmio.h \
+ C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+ C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  D:/PROJET_C/nonogram_C/src/nonogram.inc
