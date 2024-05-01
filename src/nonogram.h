@@ -3,6 +3,8 @@
 // Copyright © Christophe Demko <christophe.demko@univ-lr.fr>, 2024
 // Licensed under the BSD-3 License. See the LICENSE file for details.
 
+#include <stdbool.h>
+
 /**
  * NonoGramHints is a opaque structure that represents the hints of a nonogram.
  */
@@ -79,5 +81,15 @@ extern int nonogram_hints_get_col_value(
  * @note The caller should call the function with a NULL argument to free the static buffer
  */
 extern const char *nonogram_hints_to_string(NonoGramHints *hints);
+
+
+
+extern int** initialize_board(int rows, int cols);
+extern NonoGramHints* read_json_file(const char* filename, int** board);
+extern void solve_nonogram(NonoGramHints* hints);
+extern bool is_valid_move(int** board, int row, int col, NonoGramHints* hints);
+extern bool solve_recursive(int** board, int row, int col, int rows, int cols, NonoGramHints* hints);
+extern bool is_solved(int** board, int rows, int cols, NonoGramHints* hints);
+extern void print_solution(int** board, int rows, int cols);
 
 #endif  // NONOGRAM_H_

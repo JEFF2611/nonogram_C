@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test-to-string.dir/cJSON.c.obj"
+  "CMakeFiles/test-to-string.dir/cJSON.c.obj.d"
+  "CMakeFiles/test-to-string.dir/nonogram.c.obj"
+  "CMakeFiles/test-to-string.dir/nonogram.c.obj.d"
   "CMakeFiles/test-to-string.dir/test-to-string.c.obj"
   "CMakeFiles/test-to-string.dir/test-to-string.c.obj.d"
   "libtest-to-string.dll.a"

@@ -39,7 +39,7 @@ CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=
 CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe
+CMAKE_C_COMPILER:STRING=C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler

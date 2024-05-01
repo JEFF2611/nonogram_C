@@ -171,6 +171,58 @@ nonogram-shared/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/build
 .PHONY : nonogram-shared/fast
 
+#=============================================================================
+# Target rules for targets named test-create-destroy
+
+# Build rule for target.
+test-create-destroy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test-create-destroy
+.PHONY : test-create-destroy
+
+# fast build rule for target.
+test-create-destroy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/build
+.PHONY : test-create-destroy/fast
+
+#=============================================================================
+# Target rules for targets named test-getters
+
+# Build rule for target.
+test-getters: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test-getters
+.PHONY : test-getters
+
+# fast build rule for target.
+test-getters/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/build
+.PHONY : test-getters/fast
+
+#=============================================================================
+# Target rules for targets named test-to-string
+
+# Build rule for target.
+test-to-string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test-to-string
+.PHONY : test-to-string
+
+# fast build rule for target.
+test-to-string/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/build
+.PHONY : test-to-string/fast
+
+#=============================================================================
+# Target rules for targets named nonogram-solve
+
+# Build rule for target.
+nonogram-solve: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 nonogram-solve
+.PHONY : nonogram-solve
+
+# fast build rule for target.
+nonogram-solve/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/build
+.PHONY : nonogram-solve/fast
+
 cJSON.obj: cJSON.c.obj
 .PHONY : cJSON.obj
 
@@ -178,6 +230,10 @@ cJSON.obj: cJSON.c.obj
 cJSON.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/cJSON.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/cJSON.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/cJSON.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/cJSON.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/cJSON.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/cJSON.c.obj
 .PHONY : cJSON.c.obj
 
 cJSON.i: cJSON.c.i
@@ -187,6 +243,10 @@ cJSON.i: cJSON.c.i
 cJSON.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/cJSON.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/cJSON.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/cJSON.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/cJSON.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/cJSON.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/cJSON.c.i
 .PHONY : cJSON.c.i
 
 cJSON.s: cJSON.c.s
@@ -196,42 +256,18 @@ cJSON.s: cJSON.c.s
 cJSON.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/cJSON.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/cJSON.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/cJSON.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/cJSON.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/cJSON.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/cJSON.c.s
 .PHONY : cJSON.c.s
-
-nonogram-create.obj: nonogram-create.c.obj
-.PHONY : nonogram-create.obj
-
-# target to build an object file
-nonogram-create.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-create.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj
-.PHONY : nonogram-create.c.obj
-
-nonogram-create.i: nonogram-create.c.i
-.PHONY : nonogram-create.i
-
-# target to preprocess a source file
-nonogram-create.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-create.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-create.c.i
-.PHONY : nonogram-create.c.i
-
-nonogram-create.s: nonogram-create.c.s
-.PHONY : nonogram-create.s
-
-# target to generate assembly for a file
-nonogram-create.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-create.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-create.c.s
-.PHONY : nonogram-create.c.s
 
 nonogram-solve.obj: nonogram-solve.c.obj
 .PHONY : nonogram-solve.obj
 
 # target to build an object file
 nonogram-solve.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-solve.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/nonogram-solve.c.obj
 .PHONY : nonogram-solve.c.obj
 
 nonogram-solve.i: nonogram-solve.c.i
@@ -239,8 +275,7 @@ nonogram-solve.i: nonogram-solve.c.i
 
 # target to preprocess a source file
 nonogram-solve.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-solve.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-solve.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/nonogram-solve.c.i
 .PHONY : nonogram-solve.c.i
 
 nonogram-solve.s: nonogram-solve.c.s
@@ -248,8 +283,7 @@ nonogram-solve.s: nonogram-solve.c.s
 
 # target to generate assembly for a file
 nonogram-solve.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram-solve.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram-solve.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/nonogram-solve.c.s
 .PHONY : nonogram-solve.c.s
 
 nonogram.obj: nonogram.c.obj
@@ -259,6 +293,10 @@ nonogram.obj: nonogram.c.obj
 nonogram.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/nonogram.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/nonogram.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/nonogram.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/nonogram.c.obj
 .PHONY : nonogram.c.obj
 
 nonogram.i: nonogram.c.i
@@ -268,6 +306,10 @@ nonogram.i: nonogram.c.i
 nonogram.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/nonogram.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/nonogram.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/nonogram.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/nonogram.c.i
 .PHONY : nonogram.c.i
 
 nonogram.s: nonogram.c.s
@@ -277,7 +319,83 @@ nonogram.s: nonogram.c.s
 nonogram.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/nonogram.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/nonogram.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/nonogram.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/nonogram.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/nonogram.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/nonogram.c.s
 .PHONY : nonogram.c.s
+
+test-create-destroy.obj: test-create-destroy.c.obj
+.PHONY : test-create-destroy.obj
+
+# target to build an object file
+test-create-destroy.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/test-create-destroy.c.obj
+.PHONY : test-create-destroy.c.obj
+
+test-create-destroy.i: test-create-destroy.c.i
+.PHONY : test-create-destroy.i
+
+# target to preprocess a source file
+test-create-destroy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/test-create-destroy.c.i
+.PHONY : test-create-destroy.c.i
+
+test-create-destroy.s: test-create-destroy.c.s
+.PHONY : test-create-destroy.s
+
+# target to generate assembly for a file
+test-create-destroy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/test-create-destroy.c.s
+.PHONY : test-create-destroy.c.s
+
+test-getters.obj: test-getters.c.obj
+.PHONY : test-getters.obj
+
+# target to build an object file
+test-getters.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/test-getters.c.obj
+.PHONY : test-getters.c.obj
+
+test-getters.i: test-getters.c.i
+.PHONY : test-getters.i
+
+# target to preprocess a source file
+test-getters.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/test-getters.c.i
+.PHONY : test-getters.c.i
+
+test-getters.s: test-getters.c.s
+.PHONY : test-getters.s
+
+# target to generate assembly for a file
+test-getters.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/test-getters.c.s
+.PHONY : test-getters.c.s
+
+test-to-string.obj: test-to-string.c.obj
+.PHONY : test-to-string.obj
+
+# target to build an object file
+test-to-string.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/test-to-string.c.obj
+.PHONY : test-to-string.c.obj
+
+test-to-string.i: test-to-string.c.i
+.PHONY : test-to-string.i
+
+# target to preprocess a source file
+test-to-string.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/test-to-string.c.i
+.PHONY : test-to-string.c.i
+
+test-to-string.s: test-to-string.c.s
+.PHONY : test-to-string.s
+
+# target to generate assembly for a file
+test-to-string.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/test-to-string.c.s
+.PHONY : test-to-string.c.s
 
 # Help Target
 help:
@@ -291,19 +409,29 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... nonogram-shared
+	@echo ... nonogram-solve
 	@echo ... nonogram-static
+	@echo ... test-create-destroy
+	@echo ... test-getters
+	@echo ... test-to-string
 	@echo ... cJSON.obj
 	@echo ... cJSON.i
 	@echo ... cJSON.s
-	@echo ... nonogram-create.obj
-	@echo ... nonogram-create.i
-	@echo ... nonogram-create.s
 	@echo ... nonogram-solve.obj
 	@echo ... nonogram-solve.i
 	@echo ... nonogram-solve.s
 	@echo ... nonogram.obj
 	@echo ... nonogram.i
 	@echo ... nonogram.s
+	@echo ... test-create-destroy.obj
+	@echo ... test-create-destroy.i
+	@echo ... test-create-destroy.s
+	@echo ... test-getters.obj
+	@echo ... test-getters.i
+	@echo ... test-getters.s
+	@echo ... test-to-string.obj
+	@echo ... test-to-string.i
+	@echo ... test-to-string.s
 .PHONY : help
 
 

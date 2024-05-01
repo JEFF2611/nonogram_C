@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/PROJET_C/nonogram_C/src/cJSON.c" "CMakeFiles/test-getters.dir/cJSON.c.obj" "gcc" "CMakeFiles/test-getters.dir/cJSON.c.obj.d"
+  "D:/PROJET_C/nonogram_C/src/nonogram.c" "CMakeFiles/test-getters.dir/nonogram.c.obj" "gcc" "CMakeFiles/test-getters.dir/nonogram.c.obj.d"
   "D:/PROJET_C/nonogram_C/src/test-getters.c" "CMakeFiles/test-getters.dir/test-getters.c.obj" "gcc" "CMakeFiles/test-getters.dir/test-getters.c.obj.d"
   )
 

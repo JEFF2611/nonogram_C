@@ -206,7 +206,7 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe"
 		},
 		{

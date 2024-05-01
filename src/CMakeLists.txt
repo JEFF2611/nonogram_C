@@ -11,14 +11,10 @@ if(POLICY CMP0110)
 endif()
 
 # Add your source files here
-set(SOURCES nonogram.c cJSON.c
-        nonogram-solve.c
-        nonogram-create.c)
+set(SOURCES nonogram.c cJSON.c)
 
 # Add your header files here
-set(HEADERS nonogram.h cJSON.h
-        nonogram-solve.h
-        nonogram-create.h)
+set(HEADERS nonogram.h cJSON.h)
 
 # Create the static library
 add_library(nonogram-static STATIC ${SOURCES} ${HEADERS})
@@ -44,7 +40,7 @@ file(GLOB FILES "${CMAKE_CURRENT_SOURCE_DIR}/test-*.c")
 foreach(FILENAME ${FILES})
   get_filename_component(SRC ${FILENAME} NAME)
   get_filename_component(TEST ${FILENAME} NAME_WE)
-  add_executable(${TEST} ${SRC} ${HEADERS} nonogram.inc)
+  add_executable(${TEST} ${SRC} ${SOURCES} ${HEADERS} nonogram.inc)
   add_dependencies(${TEST} nonogram-shared)
   target_link_libraries(${TEST} nonogram-shared)
   if(VALGRIND)
@@ -59,3 +55,6 @@ endforeach()
 set(CPACK_SOURCE_GENERATOR "ZIP")
 set(CPACK_SOURCE_IGNORE_FILES "/build/;\.vscode;.*~;${CPACK_SOURCE_IGNORE_FILES}")
 include(CPack)
+
+add_executable(nonogram-solve nonogram-solve.c ${SOURCES} ${HEADERS} nonogram.inc)
+add_dependencies(nonogram-solve nonogram-shared)

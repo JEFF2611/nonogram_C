@@ -54,4 +54,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/nonogram-static.dir/DependInfo.cmake"
   "CMakeFiles/nonogram-shared.dir/DependInfo.cmake"
+  "CMakeFiles/test-create-destroy.dir/DependInfo.cmake"
+  "CMakeFiles/test-getters.dir/DependInfo.cmake"
+  "CMakeFiles/test-to-string.dir/DependInfo.cmake"
+  "CMakeFiles/nonogram-solve.dir/DependInfo.cmake"
   )

@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test-create-destroy.dir/cJSON.c.obj"
+  "CMakeFiles/test-create-destroy.dir/cJSON.c.obj.d"
+  "CMakeFiles/test-create-destroy.dir/nonogram.c.obj"
+  "CMakeFiles/test-create-destroy.dir/nonogram.c.obj.d"
   "CMakeFiles/test-create-destroy.dir/test-create-destroy.c.obj"
   "CMakeFiles/test-create-destroy.dir/test-create-destroy.c.obj.d"
   "libtest-create-destroy.dll.a"

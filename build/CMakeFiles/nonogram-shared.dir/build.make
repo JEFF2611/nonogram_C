@@ -96,53 +96,21 @@ CMakeFiles/nonogram-shared.dir/cJSON.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/nonogram-shared.dir/cJSON.c.s"
 	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJET_C\nonogram_C\src\cJSON.c -o CMakeFiles\nonogram-shared.dir\cJSON.c.s
 
-CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj: CMakeFiles/nonogram-shared.dir/flags.make
-CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj: D:/PROJET_C/nonogram_C/src/nonogram-solve.c
-CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj: CMakeFiles/nonogram-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj"
-	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj -MF CMakeFiles\nonogram-shared.dir\nonogram-solve.c.obj.d -o CMakeFiles\nonogram-shared.dir\nonogram-solve.c.obj -c D:\PROJET_C\nonogram_C\src\nonogram-solve.c
-
-CMakeFiles/nonogram-shared.dir/nonogram-solve.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/nonogram-shared.dir/nonogram-solve.c.i"
-	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJET_C\nonogram_C\src\nonogram-solve.c > CMakeFiles\nonogram-shared.dir\nonogram-solve.c.i
-
-CMakeFiles/nonogram-shared.dir/nonogram-solve.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/nonogram-shared.dir/nonogram-solve.c.s"
-	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJET_C\nonogram_C\src\nonogram-solve.c -o CMakeFiles\nonogram-shared.dir\nonogram-solve.c.s
-
-CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj: CMakeFiles/nonogram-shared.dir/flags.make
-CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj: D:/PROJET_C/nonogram_C/src/nonogram-create.c
-CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj: CMakeFiles/nonogram-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj"
-	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj -MF CMakeFiles\nonogram-shared.dir\nonogram-create.c.obj.d -o CMakeFiles\nonogram-shared.dir\nonogram-create.c.obj -c D:\PROJET_C\nonogram_C\src\nonogram-create.c
-
-CMakeFiles/nonogram-shared.dir/nonogram-create.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/nonogram-shared.dir/nonogram-create.c.i"
-	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJET_C\nonogram_C\src\nonogram-create.c > CMakeFiles\nonogram-shared.dir\nonogram-create.c.i
-
-CMakeFiles/nonogram-shared.dir/nonogram-create.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/nonogram-shared.dir/nonogram-create.c.s"
-	C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJET_C\nonogram_C\src\nonogram-create.c -o CMakeFiles\nonogram-shared.dir\nonogram-create.c.s
-
 # Object files for target nonogram-shared
 nonogram__shared_OBJECTS = \
 "CMakeFiles/nonogram-shared.dir/nonogram.c.obj" \
-"CMakeFiles/nonogram-shared.dir/cJSON.c.obj" \
-"CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj" \
-"CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj"
+"CMakeFiles/nonogram-shared.dir/cJSON.c.obj"
 
 # External object files for target nonogram-shared
 nonogram__shared_EXTERNAL_OBJECTS =
 
 libnonogram.dll: CMakeFiles/nonogram-shared.dir/nonogram.c.obj
 libnonogram.dll: CMakeFiles/nonogram-shared.dir/cJSON.c.obj
-libnonogram.dll: CMakeFiles/nonogram-shared.dir/nonogram-solve.c.obj
-libnonogram.dll: CMakeFiles/nonogram-shared.dir/nonogram-create.c.obj
 libnonogram.dll: CMakeFiles/nonogram-shared.dir/build.make
 libnonogram.dll: CMakeFiles/nonogram-shared.dir/linkLibs.rsp
 libnonogram.dll: CMakeFiles/nonogram-shared.dir/objects1.rsp
 libnonogram.dll: CMakeFiles/nonogram-shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libnonogram.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libnonogram.dll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\nonogram-shared.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
