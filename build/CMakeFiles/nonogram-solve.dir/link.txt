@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\nonogram-solve.dir/objects.a
+C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\nonogram-solve.dir/objects.a @CMakeFiles\nonogram-solve.dir\objects1.rsp
+C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\nonogram-solve.dir/objects.a -Wl,--no-whole-archive -o nonogram-solve.exe -Wl,--out-implib,libnonogram-solve.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\nonogram-solve.dir\linkLibs.rsp

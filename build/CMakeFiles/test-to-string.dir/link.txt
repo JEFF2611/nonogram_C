@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\test-to-string.dir/objects.a
+C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\test-to-string.dir/objects.a @CMakeFiles\test-to-string.dir\objects1.rsp
+C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\test-to-string.dir/objects.a -Wl,--no-whole-archive -o test-to-string.exe -Wl,--out-implib,libtest-to-string.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test-to-string.dir\linkLibs.rsp

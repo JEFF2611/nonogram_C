@@ -500,3 +500,47 @@ int main(int argc, char *argv[]) {
 
     return EXIT_SUCCESS;
 }
+
+static int **nonogram_board_create_from_hints(NonoGramHints *hints) {
+    int rows_count = hints->rows_count;
+    int cols_count = hints->cols_count;
+
+    // Créer un tableau de jeu initialisé à 0
+    int **board = (int **)malloc(rows_count * sizeof(int *));
+    if (!board) {
+        fprintf(stderr, "Error: Memory allocation failed\n");
+        return NULL;
+    }
+
+    for (int row = 0; row < rows_count; row++) {
+        board[row] = (int *)calloc(cols_count, sizeof(int));
+        if (!board[row]) {
+            fprintf(stderr, "Error: Memory allocation failed\n");
+            // Libérer la mémoire allouée précédemment
+            for (int i = 0; i < row; i++) {
+                free(board[i]);
+            }
+            free(board);
+            return NULL;
+        }
+    }
+
+    // Remplir le tableau en fonction des indices du nonogramme
+    for (int row = 0; row < rows_count; row++) {
+        int index = 0;
+        int col = 0;
+        for (int i = 0; i < MAX_HINTS && hints->rows[row][i] != 0; i++) {
+            int hint = hints->rows[row][i];
+            for (int j = 0; j < hint; j++) {
+                if (col < cols_count) {
+                    board[row][col++] = 1;
+                }
+            }
+            if (col < cols_count) {
+                board[row][col++] = 0; // Ajouter un espace entre les blocs
+            }
+        }
+    }
+
+    return board;
+}
