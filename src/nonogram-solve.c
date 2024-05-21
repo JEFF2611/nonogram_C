@@ -2,12 +2,9 @@
 // Created by engouan on 30/04/2024.
 //
 
-#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
-
-
 #include "./cJSON.h"
 #include "./nonogram.h"
 #include "./nonogram.inc"
@@ -15,122 +12,129 @@
 
 #define MAX_HINTS 32
 
+/**
+ * @brief Create a board from a nonogram hints object
+ * @param hints The nonogram hints object
+ * @return A 2D array representing the game board
+ * @note This function creates a game board from a nonogram hints object
+ */
+int **nonogram_board_create_from_hints(NonoGramHints *hints) {
+    int rows_count = hints->rows_count;
+    int cols_count = hints->cols_count;
 
-bool fill_spaces_between_indices(NonoGramHints *hints, int **board, int index, int size) {
-    bool progress = false;
-    int *indices = (index < hints->rows_count) ? hints->rows[index] : hints->cols[index];
-
-    if (index > 0) { // Vérifie si ce n'est pas la première ligne
-        int *prevRow = (index < hints->rows_count) ? hints->rows[index - 1] : hints->cols[index - 1];
-        for (int i = 0; indices[i] != 0; i++) {
-            int count = indices[i];
-            int start = 0;
-
-            // Trouver le début de la séquence
-            while (start < size && board[index][start] == 0) {
-                start++;
-            }
-
-            // Remplir les cases vides entre les indices en vérifiant la case précédente
-            for (int j = start + count; j < size && j < start + count + 1; j++) {
-                if (board[index][j] == 0 && (j == 0 || board[index - 1][j - 1] == 1)) {
-                    board[index][j] = 1;
-                    progress = true;
-                }
-            }
-        }
+    // Créer un tableau de jeu initialisé à 0
+    int **board = (int **)malloc(rows_count * sizeof(int *));
+    if (!board) {
+        fprintf(stderr, "Error: Memory allocation failed\n");
+        return NULL;
     }
 
-    return progress;
-}
-
-bool fill_cells_between_indices(NonoGramHints *hints, int **board, int index, int size) {
-    bool progress = false;
-    int *indices = (index < hints->rows_count) ? hints->rows[index] : hints->cols[index];
-
-    if (index > 0) { // Vérifie si ce n'est pas la première ligne
-        int *prevRow = (index < hints->rows_count) ? hints->rows[index - 1] : hints->cols[index - 1];
-        for (int i = 0; indices[i] != 0; i++) {
-            int count = indices[i];
-            int start = 0;
-
-            // Trouver le début de la séquence
-            while (start < size && board[index][start] == 1) {
-                start++;
-            }
-
-            // Remplir les cases pleines entre les indices en vérifiant la case précédente
-            for (int j = start + count; j < size && j < start + count + 1; j++) {
-                if (board[index][j] == 1 && (j == 0 || board[index - 1][j - 1] == 0)) {
-                    board[index][j] = 0;
-                    progress = true;
-                }
-            }
-        }
-    }
-
-    return progress;
-}
-
-
-// Fonction pour appliquer les stratégies de résolution sur une ligne
-bool apply_row_strategies(NonoGramHints *hints, int **board, int row, int cols_count) {
-    bool progress = false;
-
-    // Stratégie 1 : Remplir les cases vides entre les indices de ligne
-    progress |= fill_spaces_between_indices(hints, board, row, cols_count);
-
-    // Stratégie 2 : Remplir les cases pleines entre les indices de ligne
-    progress |= fill_cells_between_indices(hints, board, row, cols_count);
-
-    return progress;
-}
-
-// Fonction pour appliquer les stratégies de résolution sur une colonne
-bool apply_col_strategies(NonoGramHints *hints, int **board, int col, int rows_count) {
-    bool progress = false;
-
-    // Stratégie 1 : Remplir les cases vides entre les indices de colonne
-    progress |= fill_spaces_between_indices(hints, board, col, rows_count);
-
-    // Stratégie 2 : Remplir les cases pleines entre les indices de colonne
-    progress |= fill_cells_between_indices(hints, board, col, rows_count);
-
-    return progress;
-}
-
-
-// Fonction pour appliquer les stratégies de résolution
-bool apply_strategies(NonoGramHints *hints, int **board, int rows_count, int cols_count) {
-    bool progress = false;
-
-    // Parcourir les lignes
     for (int row = 0; row < rows_count; row++) {
-        progress |= apply_row_strategies(hints, board, row, cols_count);
+        board[row] = (int *)calloc(cols_count, sizeof(int));
+        if (!board[row]) {
+            fprintf(stderr, "Error: Memory allocation failed\n");
+            // Libérer la mémoire allouée précédemment
+            for (int i = 0; i < row; i++) {
+                free(board[i]);
+            }
+            free(board);
+            return NULL;
+        }
     }
 
-    // Parcourir les colonnes
+    for (int row = 0; row < rows_count; row++) {
+        int col = 0;
+        for (int i = 0; i < MAX_HINTS && hints->rows[row][i] != 0; i++) {
+            int hint = hints->rows[row][i];
+            // Remplir les blocs en vérifiant les colonnes et la ligne précédente
+            for (int j = 0; j < hint; j++) {
+                if (col < cols_count) {
+                    // Vérifier si la cellule est déjà remplie par une colonne
+                    if (board[row][col] == 0 && (row == 0 || board[row - 1][col] == 1)) {
+                        board[row][col] = 1;
+                    }
+                    col++;
+                }
+            }
+            // Ajouter un espace entre les blocs si c'est permis
+            if (col < cols_count && i < MAX_HINTS - 1 && hints->rows[row][i + 1] != 0) {
+                if (board[row][col] == 0) {
+                    board[row][col] = 0;
+                }
+                col++;
+            }
+        }
+    }
+
+
+    return board;
+}
+
+/**
+ * @brief Fill a row of the board
+ * @param row_hints
+ * @param row
+ * @param cols_count
+ */
+void fill_row(int *row_hints, int *row, int cols_count) {
+    int col = 0;
+    for (int i = 0; i < MAX_HINTS && row_hints[i] != 0; i++) {
+        int hint = row_hints[i];
+        // Remplir les blocs en vérifiant les colonnes
+        for (int j = 0; j < hint; j++) {
+            if (col < cols_count) {
+                row[col++] = 1;
+            }
+        }
+        // Ajouter un espace entre les blocs si c'est permis
+        if (col < cols_count && i < MAX_HINTS - 1 && row_hints[i + 1] != 0) {
+            row[col++] = 0;
+        }
+    }
+}
+
+/**
+ * @brief Update the columns of the board
+ * @param board
+ * @param cols_hints
+ * @param rows_count
+ * @param cols_count
+ */
+void update_cols(int **board, int **cols_hints, int rows_count, int cols_count) {
     for (int col = 0; col < cols_count; col++) {
-        progress |= apply_col_strategies(hints, board, col, rows_count);
-    }
+        int filled_cells = 0;
+        for (int row = 0; row < rows_count; row++) {
+            if (board[row][col] == 1) {
+                filled_cells++;
+            }
+        }
 
-    return progress;
+        int col_hint_idx = 0;
+        int hint_filled = 0;
+        for (int row = 0; row < rows_count; row++) {
+            if (board[row][col] == 1) {
+                hint_filled++;
+            } else {
+                if (hint_filled > 0 && hint_filled == cols_hints[col][col_hint_idx]) {
+                    col_hint_idx++;
+                }
+                hint_filled = 0;
+            }
+        }
+    }
 }
 
-// Fonction pour résoudre le Nonogram
+/**
+ * @brief Solve a nonogram
+ * @param hints
+ * @param board
+ */
 void solve_nonogram(NonoGramHints *hints, int **board) {
-    int rows_count = nonogram_hints_get_rows_count(hints);
-    int cols_count = nonogram_hints_get_cols_count(hints);
-    bool progress = true;
-
-    while (progress) {
-        progress = false;
-
-        // Appliquer les stratégies de résolution
-        progress |= apply_strategies(hints, board, rows_count, cols_count);
+    for (int row = 0; row < hints->rows_count; row++) {
+        fill_row(hints->rows[row], board[row], hints->cols_count);
+        update_cols(board, hints->cols, hints->rows_count, hints->cols_count);
     }
 }
-
 
 /**
  * @brief Write a nonogram board to a PBM file
@@ -295,73 +299,3 @@ NonoGramHints *parse_json(const char *filename) {
     return hints;
 }
 
-int main(int argc, char *argv[]) {
-
-    if (argc < 2) {
-        fprintf(stderr, "Usage: %s hints.json [--board board.pbm] [--output solved.pbm]\n", argv[0]);
-        return EXIT_FAILURE;
-    }
-
-    const char* hints_file = argv[1];
-    const char* board_file = NULL;
-    int** board_data = NULL;
-    const char* output_file = NULL;
-
-    // Parse command line arguments
-    for (int i = 2; i < argc; i++) {
-        if (strcmp(argv[i], "--board") == 0 && i + 1 < argc) {
-            board_file = argv[i + 1];
-            i++;
-        } else if (strcmp(argv[i], "--output") == 0 && i + 1 < argc) {
-            output_file = argv[i + 1];
-            i++;
-        }
-    }
-    // Charger les indices à partir du fichier JSON
-    NonoGramHints *hints = parse_json(hints_file);
-    if (!hints) {
-        fprintf(stderr, "Error: Unable to parse JSON file\n");
-        return EXIT_FAILURE;
-    }
-
-    // Crée le board en fonction des tailles de lignes et colonnes du Nonogram
-    int rows_count = nonogram_hints_get_rows_count(hints);
-    int cols_count = nonogram_hints_get_cols_count(hints);
-    int **board = (int **)malloc(rows_count * sizeof(int *));
-    if (!board) {
-        fprintf(stderr, "Error: Memory allocation failed\n");
-        nonogram_hints_destroy(hints);
-        return EXIT_FAILURE;
-    }
-    for (int i = 0; i < rows_count; i++) {
-        board[i] = (int *)calloc(cols_count, sizeof(int));
-        if (!board[i]) {
-            fprintf(stderr, "Error: Memory allocation failed\n");
-            for (int j = 0; j < i; j++) {
-                free(board[j]);
-            }
-            free(board);
-            nonogram_hints_destroy(hints);
-            return EXIT_FAILURE;
-        }
-    }
-
-    // Solve le Nonogram
-    solve_nonogram(hints, board);
-
-
-    // Écrivez le plateau de jeu dans un fichier PBM
-    nonogram_write_pbm(output_file, board, hints->rows_count, hints->cols_count);
-
-    printf("%s\n", nonogram_hints_to_string(hints));
-    printf("OK\n");
-
-    // Libérer la mémoire utilisée
-    free(hints);
-    for (int i = 0; i < hints->rows_count; i++) {
-        free(board[i]);
-    }
-    free(board);
-
-    return EXIT_SUCCESS;
-}

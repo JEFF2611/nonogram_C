@@ -58,3 +58,6 @@ include(CPack)
 
 add_executable(nonogram-solve nonogram-solve.c ${SOURCES} ${HEADERS} nonogram.inc)
 add_dependencies(nonogram-solve nonogram-shared)
+
+add_executable(nonogram-create nonogram-create.c ${SOURCES} ${HEADERS} nonogram.inc)
+add_dependencies(nonogram-create nonogram-shared)

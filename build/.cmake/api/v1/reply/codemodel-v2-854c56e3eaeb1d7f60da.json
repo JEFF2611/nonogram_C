@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,12 +41,20 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nonogram-create::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nonogram-create-Debug-f1c1c148cf9fb3d397a2.json",
+					"name" : "nonogram-create",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "nonogram-shared::@6890427a1f51a3e7e1df",

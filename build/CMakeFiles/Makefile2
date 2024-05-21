@@ -68,6 +68,7 @@ all: CMakeFiles/test-create-destroy.dir/all
 all: CMakeFiles/test-getters.dir/all
 all: CMakeFiles/test-to-string.dir/all
 all: CMakeFiles/nonogram-solve.dir/all
+all: CMakeFiles/nonogram-create.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -81,6 +82,7 @@ clean: CMakeFiles/test-create-destroy.dir/clean
 clean: CMakeFiles/test-getters.dir/clean
 clean: CMakeFiles/test-to-string.dir/clean
 clean: CMakeFiles/nonogram-solve.dir/clean
+clean: CMakeFiles/nonogram-create.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -90,7 +92,7 @@ clean: CMakeFiles/nonogram-solve.dir/clean
 CMakeFiles/nonogram-static.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-static.dir\build.make CMakeFiles/nonogram-static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=10,11,12,13 "Built target nonogram-static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=15,16,17,18 "Built target nonogram-static"
 .PHONY : CMakeFiles/nonogram-static.dir/all
 
 # Build rule for subdir invocation for target.
@@ -116,7 +118,7 @@ CMakeFiles/nonogram-static.dir/clean:
 CMakeFiles/nonogram-shared.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-shared.dir\build.make CMakeFiles/nonogram-shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=1,2,3,4 "Built target nonogram-shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=6,7,8,9 "Built target nonogram-shared"
 .PHONY : CMakeFiles/nonogram-shared.dir/all
 
 # Build rule for subdir invocation for target.
@@ -142,7 +144,7 @@ CMakeFiles/nonogram-shared.dir/clean:
 CMakeFiles/test-create-destroy.dir/all: CMakeFiles/nonogram-shared.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-create-destroy.dir\build.make CMakeFiles/test-create-destroy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=14,15,16,17,18 "Built target test-create-destroy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=19,20,21,22,23 "Built target test-create-destroy"
 .PHONY : CMakeFiles/test-create-destroy.dir/all
 
 # Build rule for subdir invocation for target.
@@ -168,7 +170,7 @@ CMakeFiles/test-create-destroy.dir/clean:
 CMakeFiles/test-getters.dir/all: CMakeFiles/nonogram-shared.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=19,20,21,22,23 "Built target test-getters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=24,25,26,27,28 "Built target test-getters"
 .PHONY : CMakeFiles/test-getters.dir/all
 
 # Build rule for subdir invocation for target.
@@ -194,7 +196,7 @@ CMakeFiles/test-getters.dir/clean:
 CMakeFiles/test-to-string.dir/all: CMakeFiles/nonogram-shared.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=24,25,26,27,28 "Built target test-to-string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=29,30,31,32,33 "Built target test-to-string"
 .PHONY : CMakeFiles/test-to-string.dir/all
 
 # Build rule for subdir invocation for target.
@@ -220,7 +222,7 @@ CMakeFiles/test-to-string.dir/clean:
 CMakeFiles/nonogram-solve.dir/all: CMakeFiles/nonogram-shared.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=5,6,7,8,9 "Built target nonogram-solve"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=10,11,12,13,14 "Built target nonogram-solve"
 .PHONY : CMakeFiles/nonogram-solve.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,6 +240,32 @@ nonogram-solve: CMakeFiles/nonogram-solve.dir/rule
 CMakeFiles/nonogram-solve.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/clean
 .PHONY : CMakeFiles/nonogram-solve.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/nonogram-create.dir
+
+# All Build rule for target.
+CMakeFiles/nonogram-create.dir/all: CMakeFiles/nonogram-shared.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\PROJET_C\nonogram_C\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target nonogram-create"
+.PHONY : CMakeFiles/nonogram-create.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/nonogram-create.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJET_C\nonogram_C\build\CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/nonogram-create.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROJET_C\nonogram_C\build\CMakeFiles 0
+.PHONY : CMakeFiles/nonogram-create.dir/rule
+
+# Convenience name for target.
+nonogram-create: CMakeFiles/nonogram-create.dir/rule
+.PHONY : nonogram-create
+
+# clean rule for target.
+CMakeFiles/nonogram-create.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/clean
+.PHONY : CMakeFiles/nonogram-create.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

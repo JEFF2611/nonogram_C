@@ -1,5 +1,5 @@
-CMakeFiles/nonogram-static.dir/rnwimg.c.obj: \
- D:\PROJET_C\nonogram_C\src\rnwimg.c \
+CMakeFiles/nonogram-create.dir/pnmio.c.obj: \
+ D:\PROJET_C\nonogram_C\src\pnmio.c \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -21,6 +21,7 @@ CMakeFiles/nonogram-static.dir/rnwimg.c.obj: \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+ C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/Users/mecty/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/math.h \

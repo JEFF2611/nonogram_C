@@ -1,5 +1,11 @@
 //
-// Created by mecty on 30/04/2024.
+// Created by engouan on 30/04/2024.
 //
 
-#include "nonogram-create.h"
+#include<stdio.h>
+
+int main(){
+
+    printf("Hello world");
+    return 0;
+}

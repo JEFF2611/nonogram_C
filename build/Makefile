@@ -223,6 +223,19 @@ nonogram-solve/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/build
 .PHONY : nonogram-solve/fast
 
+#=============================================================================
+# Target rules for targets named nonogram-create
+
+# Build rule for target.
+nonogram-create: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 nonogram-create
+.PHONY : nonogram-create
+
+# fast build rule for target.
+nonogram-create/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/build
+.PHONY : nonogram-create/fast
+
 cJSON.obj: cJSON.c.obj
 .PHONY : cJSON.obj
 
@@ -234,6 +247,7 @@ cJSON.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/cJSON.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/cJSON.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/cJSON.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/cJSON.c.obj
 .PHONY : cJSON.c.obj
 
 cJSON.i: cJSON.c.i
@@ -247,6 +261,7 @@ cJSON.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/cJSON.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/cJSON.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/cJSON.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/cJSON.c.i
 .PHONY : cJSON.c.i
 
 cJSON.s: cJSON.c.s
@@ -260,7 +275,32 @@ cJSON.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/cJSON.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/cJSON.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/cJSON.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/cJSON.c.s
 .PHONY : cJSON.c.s
+
+nonogram-create.obj: nonogram-create.c.obj
+.PHONY : nonogram-create.obj
+
+# target to build an object file
+nonogram-create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/nonogram-create.c.obj
+.PHONY : nonogram-create.c.obj
+
+nonogram-create.i: nonogram-create.c.i
+.PHONY : nonogram-create.i
+
+# target to preprocess a source file
+nonogram-create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/nonogram-create.c.i
+.PHONY : nonogram-create.c.i
+
+nonogram-create.s: nonogram-create.c.s
+.PHONY : nonogram-create.s
+
+# target to generate assembly for a file
+nonogram-create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/nonogram-create.c.s
+.PHONY : nonogram-create.c.s
 
 nonogram-solve.obj: nonogram-solve.c.obj
 .PHONY : nonogram-solve.obj
@@ -297,6 +337,7 @@ nonogram.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/nonogram.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/nonogram.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/nonogram.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/nonogram.c.obj
 .PHONY : nonogram.c.obj
 
 nonogram.i: nonogram.c.i
@@ -310,6 +351,7 @@ nonogram.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/nonogram.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/nonogram.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/nonogram.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/nonogram.c.i
 .PHONY : nonogram.c.i
 
 nonogram.s: nonogram.c.s
@@ -323,6 +365,7 @@ nonogram.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/nonogram.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/nonogram.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/nonogram.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/nonogram.c.s
 .PHONY : nonogram.c.s
 
 pnmio.obj: pnmio.c.obj
@@ -336,6 +379,7 @@ pnmio.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/pnmio.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/pnmio.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/pnmio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/pnmio.c.obj
 .PHONY : pnmio.c.obj
 
 pnmio.i: pnmio.c.i
@@ -349,6 +393,7 @@ pnmio.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/pnmio.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/pnmio.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/pnmio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/pnmio.c.i
 .PHONY : pnmio.c.i
 
 pnmio.s: pnmio.c.s
@@ -362,6 +407,7 @@ pnmio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-getters.dir\build.make CMakeFiles/test-getters.dir/pnmio.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test-to-string.dir\build.make CMakeFiles/test-to-string.dir/pnmio.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-solve.dir\build.make CMakeFiles/nonogram-solve.dir/pnmio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nonogram-create.dir\build.make CMakeFiles/nonogram-create.dir/pnmio.c.s
 .PHONY : pnmio.c.s
 
 test-create-destroy.obj: test-create-destroy.c.obj
@@ -447,6 +493,7 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... nonogram-create
 	@echo ... nonogram-shared
 	@echo ... nonogram-solve
 	@echo ... nonogram-static
@@ -456,6 +503,9 @@ help:
 	@echo ... cJSON.obj
 	@echo ... cJSON.i
 	@echo ... cJSON.s
+	@echo ... nonogram-create.obj
+	@echo ... nonogram-create.i
+	@echo ... nonogram-create.s
 	@echo ... nonogram-solve.obj
 	@echo ... nonogram-solve.i
 	@echo ... nonogram-solve.s
