@@ -1,0 +1,2 @@
+C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc libnonogram.a "CMakeFiles/nonogram-static.dir/nonogram.c.obj" "CMakeFiles/nonogram-static.dir/cJSON.c.obj" "CMakeFiles/nonogram-static.dir/pnmio.c.obj"
+C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\ranlib.exe libnonogram.a

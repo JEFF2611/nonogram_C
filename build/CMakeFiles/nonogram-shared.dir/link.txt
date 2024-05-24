@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\nonogram-shared.dir/objects.a
+C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\nonogram-shared.dir/objects.a @CMakeFiles\nonogram-shared.dir\objects1.rsp
+C:\Users\mecty\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g -shared -o libnonogram.dll -Wl,--out-implib,libnonogram.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\nonogram-shared.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\nonogram-shared.dir\linkLibs.rsp

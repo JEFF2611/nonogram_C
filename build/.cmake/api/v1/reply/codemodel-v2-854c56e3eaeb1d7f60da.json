@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NonoGram",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nonogram-create::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nonogram-create-Debug-f1c1c148cf9fb3d397a2.json",
+					"name" : "nonogram-create",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nonogram-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nonogram-shared-Debug-9a0737450d90c2bdc20b.json",
+					"name" : "nonogram-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nonogram-solve::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nonogram-solve-Debug-a76f14d3ce140e41d8ab.json",
+					"name" : "nonogram-solve",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nonogram-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nonogram-static-Debug-7c5fc4b0e83e8a70359f.json",
+					"name" : "nonogram-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-create-destroy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-create-destroy-Debug-abce315c2001e329a46d.json",
+					"name" : "test-create-destroy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-getters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-getters-Debug-282efd0ce16f492b1f06.json",
+					"name" : "test-getters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test-to-string::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-to-string-Debug-24177fc1491ad73676e3.json",
+					"name" : "test-to-string",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/PROJET_C/nonogram_C/build",
+		"source" : "D:/PROJET_C/nonogram_C/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
